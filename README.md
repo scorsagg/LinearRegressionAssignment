@@ -11,25 +11,28 @@
 
 ## General Information
 - Provide general information about your project here.
+  This assignment is prepard and submitted by me alone. This project intends to provide insight to the Boom bike company for predicting the usage of their bike after the pandemic is over.
 - What is the background of your project?
 - What is the business probem that your project is trying to solve?
+  A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow   people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be   returned to another dock belonging to the same system.
 - What is the dataset that is being used?
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+The variables that proved significant for the predictions are:
+    workingday, atemp, hum, windspeed, spring, winter, Year_1, Weekday_6, Light Snow, Mist + Cloudy, mid_of_month 
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The model built using these variables has provided an explainability of 83%.
+The test data provided an explainability (R-Squared) of 80.77%.
+
+This indicates that the model can be used effectively.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Numpy, Pandas, sklear, statsmodel, matplotlib, seaborn
+
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -41,7 +44,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by scorsagg - feel free to contact me!
 
 
 <!-- Optional -->
